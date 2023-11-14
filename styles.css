@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin-bottom: 1em;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 calc(50% - 50px);
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+#output {
+    margin-top: 2em;
+    font-weight: bold;
+}
+#medicalForm{
+   border-radius: 8px;
+   padding: 20px 10%;
+   margin: 30px 20%;
+   box-shadow: 0 0 2px 3px #eee;
+
+}
+label:not(div > label){
+   font-weight: bold;
+   display: inline-block;
+   margin: 5px 0;
+}
+
+*{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#symptoms-cont,#conditions-cont{
+   margin-left: 15px;
+}
+#symptoms-cont input,#conditions-cont input{
+   margin-bottom: 6px;
+}
+
+input[type="number"],input[type="text"]{
+   width: 100%;
+   border-radius: 5px;
+   padding: 8px;
+   border: 1px solid #aaa;
+}

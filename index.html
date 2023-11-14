@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+<body>
+    <form id="medicalForm">
+        <label for="age">Enter age:</label><br>
+        <input type="number" id="age" name="age"><br>
+        <label for="gender">Enter gender:</label><br>
+        <input type="text" id="gender" name="gender"><br>
+        <label for="weight">Enter weight:</label><br>
+        <input type="number" id="weight" name="weight"><br>
+        <label for="temp">Enter body temperature (F):</label><br>
+        <input type="number" id="temp" name="temp"><br>
+         <label >Enter Symptoms:</label><br>
+        <div id="symptoms-cont"></div>
+        <label >Enter Existing Medical Conditions:</label><br>
+        <div id="conditions-cont"></div>  
+        <label for="duration">Duration of fever:</label><br>
+        <select id="duration"></select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <div id="output"></div>
+    <script src="script.js"></script>
+</body>
+</html>
